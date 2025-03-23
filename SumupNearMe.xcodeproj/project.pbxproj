@@ -27,11 +27,25 @@
 		5E4C276B2D904F39001BEA2E /* SumupNearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumupNearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4C277C2D904F3C001BEA2E /* SumupNearMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumupNearMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4C27862D904F3C001BEA2E /* SumupNearMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumupNearMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4C27DB2D907A8A001BEA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5E4C280D2D90B267001BEA2E /* Exceptions for "SumupNearMe" folder in "SumupNearMe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"UIApplication+DismissKeyboard.swift",
+			);
+			target = 5E4C276A2D904F39001BEA2E /* SumupNearMe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5E4C276D2D904F39001BEA2E /* SumupNearMe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5E4C280D2D90B267001BEA2E /* Exceptions for "SumupNearMe" folder in "SumupNearMe" target */,
+			);
 			path = SumupNearMe;
 			sourceTree = "<group>";
 		};
@@ -75,6 +89,7 @@
 		5E4C27622D904F39001BEA2E = {
 			isa = PBXGroup;
 			children = (
+				5E4C27DB2D907A8A001BEA2E /* Info.plist */,
 				5E4C276D2D904F39001BEA2E /* SumupNearMe */,
 				5E4C277F2D904F3C001BEA2E /* SumupNearMeTests */,
 				5E4C27892D904F3C001BEA2E /* SumupNearMeUITests */,
@@ -392,9 +407,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SumupNearMe/Preview Content\"";
+				DEVELOPMENT_TEAM = BV2K9Q25B9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "SU Near Me";
+				"INFOPLIST_FILE[sdk=*]" = /users/unelson/Desktop/SumupNearMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SU Rewards";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -431,9 +448,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SumupNearMe/Preview Content\"";
+				DEVELOPMENT_TEAM = BV2K9Q25B9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "SU Near Me";
+				INFOPLIST_KEY_CFBundleDisplayName = "SU Rewards";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

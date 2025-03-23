@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundleName</key>
+    <string>SumupNearMe</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.sumup.SumupNearMe</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <!-- Camera usage description -->
+    <key>NSCameraUsageDescription</key>
+    <string>"This app requires access to the camera to scan QR codes for check-in."</string>
+    <!-- Add other keys as needed -->
+  </dict>
+</plist>
+
